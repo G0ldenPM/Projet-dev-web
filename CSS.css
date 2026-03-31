@@ -4,6 +4,11 @@
     border-color: black;
     border: 2px, solid;
     margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 12px;
+    padding: 5px;
 }
 
 .barre_filtres{
@@ -27,4 +32,14 @@
 
 .offres{
     background-color: gray;
+}
+
+.boutton{
+    background-color: darkgray;
+    height: 50px;
+    width: 100px;
+}
+
+.detail-offre{
+    background-color: lightgray;
 }
