@@ -43,3 +43,15 @@
 .detail-offre{
     background-color: lightgray;
 }
+
+.tableau_profil{
+    border: 2px, solid;
+    background-color: lightgray;
+    height: 100px;
+    width: 100%;
+}
+td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
