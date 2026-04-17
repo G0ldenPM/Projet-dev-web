@@ -9,6 +9,7 @@
     justify-content: space-between;
     margin: 12px;
     padding: 5px;
+    border-radius: 7px;
 }
 
 .barre_filtres{
@@ -16,22 +17,61 @@
     height: 100px;
     width: 75%;
     margin-right: 20px;
+    border-radius: 5px;
 }
 
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
 .AI_box{
-    background-color: aqua;
+    background-color: rgb(4, 0, 255);
     height: 100px;
     width: 25%;
+    border-radius: 5px;
 }
 
 .barre2{
     display: flex;
     flex-direction: row;
     margin: 10px;
+    border-radius: 5px;
 }
 
 .offres{
     background-color: gray;
+    border-radius: 5px;
 }
 
 .boutton{
