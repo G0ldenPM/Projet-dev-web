@@ -1,29 +1,50 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Page de profil</title>
-        <link rel="stylesheet" href="CSS.css">
-    </head>
-    <body  style="background-color: lightgray;">
-        <img src="images/photo-profil-defaut.jpg", alt="photo profil" width="200px">
-        <table class="tableau_profil">
+<html lang="fr">
+<head>
+    <title>Modifier le profil — Auto Prestige</title>
+    <link rel="stylesheet" href="CSS.css">
+</head>
+<body style="padding: 20px;">
+ 
+    <div style="display:flex; align-items:center; gap:20px; margin-bottom:24px; padding: 20px;
+                background: var(--noir-3); border:1px solid var(--gris-fonce); border-radius: var(--radius);
+                border-top: 3px solid var(--rouge);">
+        <img src="images/photo-profil-defaut.jpg" alt="photo profil" width="100px" height="100px"
+             style="border-radius:50%; border:2px solid var(--rouge); object-fit:cover;">
+        <div>
+            <h1 style="font-size:2rem;">Mon profil</h1>
+            <p style="color: var(--gris-clair); font-size:0.85rem;">Modifiez vos informations personnelles</p>
+        </div>
+    </div>
+ 
+    <table class="tableau_profil">
+        <thead>
             <tr>
-                <th>Nom : </th>
-                <th>Prénom : </th>
-                <th>Adresse : </th>
-                <th>Numéro de téléphone : </th>
-                <th>Adresse e-mail : </th>
-                <th>Date de naissance : </th>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Adresse</th>
+                <th>Téléphone</th>
+                <th>Email</th>
+                <th>Date de naissance</th>
             </tr>
+        </thead>
+        <tbody>
             <tr>
-                <td>...</td>
-                <td>...</td>
-                <td>...</td>
-                <td>...</td>
-                <td>...</td>
-                <td>...</td>
+                <td>Dupont</td>
+                <td>Jean</td>
+                <td>12 rue de la Paix, Paris</td>
+                <td>06 00 00 00 00</td>
+                <td>jean.dupont@mail.com</td>
+                <td>01/01/1990</td>
             </tr>
-        </table>
-        <a href="Page_recherche.html"><p>retour acceuil</p></a>
-    </body>
+        </tbody>
+    </table>
+ 
+    <div style="margin-top:20px; display:flex; gap:10px;">
+        <button>Enregistrer les modifications</button>
+        <button class="boutton-ghost" onclick="location.href='page_compte.html'">Annuler</button>
+    </div>
+ 
+    <a href="Page_recherche.html" class="retour-lien">Retour aux annonces</a>
+</body>
 </html>

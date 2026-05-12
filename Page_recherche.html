@@ -1,100 +1,110 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="CSS.css">
-        <title>Page de recherche</title>
-    </head>
-    <body  style="background-color: lightgray;">
-        <div class="bandeau_acceuil">
-            <h1>*NOM DU SITE*</h1>
-            <button class="boutton" onclick="location.href = 'page_compte.html'">Mon profil</button>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="CSS.css">
+    <title>Recherche — Auto Prestige</title>
+</head>
+<body>
+    <div class="bandeau_acceuil">
+        <h1>AUTO PRESTIGE</h1>
+        <div style="display:flex; gap:10px;">
+            <button class="boutton" onclick="location.href='page_compte.html'">Mon profil</button>
+            <button class="boutton boutton-ghost" onclick="location.href='connection.html'">Connexion</button>
         </div>
-        <div class="barre2">
-            <div class="barre_filtres">
-                <p>Filtres</p>
-                <div class="dropdown">
-                    <button class="dropbtn">Marques</button>
-                    <div class="dropdown-content">
-                        <a href="#">Marque 1</a>
-                        <a href="#">Marque 2</a>
-                        <a href="#">Marque 3</a>
-                    </div>
+    </div>
+ 
+    <div class="barre2">
+        <div class="barre_filtres">
+            <p>Filtres</p>
+            <div class="dropdown">
+                <button class="dropbtn">Marque ▾</button>
+                <div class="dropdown-content">
+                    <a href="#">Audi</a>
+                    <a href="#">BMW</a>
+                    <a href="#">Mercedes</a>
+                    <a href="#">Renault</a>
+                    <a href="#">Peugeot</a>
                 </div>
-                <div class="dropdown">
-                    <button class="dropbtn">Kilometrage</button>
-                    <div class="dropdown-content">
-                        <a href="#">Moins de 50 000 km</a>
-                        <a href="#">50 000 - 100 000 km</a>
-                        <a href="#">Plus de 100 000 km</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn">type boite</button>
-                    <div class="dropdown-content">
-                        <a href="#">Manuelle</a>
-                        <a href="#">Automatique</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn">Motorisation</button>
-                    <div class="dropdown-content">
-                        <a href="#">Essence</a>
-                        <a href="#">Diesel</a>
-                        <a href="#">Electrique</a>
-                        <a href="#">Hybride</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn">Prix</button>
-                    <div class="dropdown-content">
-                        <a href="#">- de 10 000 €</a>
-                        <a href="#">10 000 - 20 000 €</a>
-                        <a href="#">20 000 - 30 000 €</a>
-                        <a href="#">30 000 € et plus</a>
-                    </div>
-                </div>
-                
             </div>
-            <div class="AI_box">
-                <p>AI chatbot ?</p>
+            <div class="dropdown">
+                <button class="dropbtn">Kilométrage ▾</button>
+                <div class="dropdown-content">
+                    <a href="#">Moins de 50 000 km</a>
+                    <a href="#">50 000 – 100 000 km</a>
+                    <a href="#">Plus de 100 000 km</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Boîte ▾</button>
+                <div class="dropdown-content">
+                    <a href="#">Manuelle</a>
+                    <a href="#">Automatique</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Motorisation ▾</button>
+                <div class="dropdown-content">
+                    <a href="#">Essence</a>
+                    <a href="#">Diesel</a>
+                    <a href="#">Électrique</a>
+                    <a href="#">Hybride</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Prix ▾</button>
+                <div class="dropdown-content">
+                    <a href="#">Moins de 10 000 €</a>
+                    <a href="#">10 000 – 20 000 €</a>
+                    <a href="#">20 000 – 30 000 €</a>
+                    <a href="#">30 000 € et plus</a>
+                </div>
             </div>
         </div>
-            <div class="offres">
-                <a href="page_annonce.html"><h2>Offre 1</h2> </a>
-                <p>texte</p>
-                <br>
-            </div>
-            <br>
-            <div class="offres">
-                <a href="page_annonce.html"><h2>Offre 2</h2> </a>
-                <p>texte</p>
-                <br>
-            </div>
-            <br>
-            <div class="offres">
-                <a href="page_annonce.html"><h2>Offre 3</h2> </a>
-                <p>texte</p>
-                <br>
-            </div>
-            <br>
-            <div class="offres">
-                <a href="page_annonce.html"><h2>Offre 4</h2> </a>
-                <p>texte</p>
-                <br>
-            </div>
-            <br>
-            <div class="offres">
-                <a href="page_annonce.html"><h2>Offre 5</h2> </a>
-                <p>texte</p>
-                <br>
-            </div>
-            <br>
-            <div class="offres">
-                <a href="page_annonce.html"><h2>Offre 6</h2> </a>
-                <p>texte</p>
-                <br>
-            </div>
-            <br>
+        <div class="AI_box">
+            <p>Assistant IA</p>
+            <p style="font-size:0.72rem; opacity:0.8; font-weight:400; letter-spacing:0.5px;">Trouvez votre voiture idéale</p>
+            <button style="margin-top:6px; padding:7px 14px; font-size:0.75rem;">Démarrer</button>
         </div>
-    </body>
+    </div>
+ 
+    <h2 class="section-title">Annonces disponibles</h2>
+ 
+    <div class="offres">
+        <a href="page_annonce.html">
+            <h2>Peugeot 308 — 2021</h2>
+            <p>Diesel · 62 000 km · Boîte manuelle · 15 900 €</p>
+        </a>
+    </div>
+    <div class="offres">
+        <a href="page_annonce.html">
+            <h2>Renault Mégane — 2020</h2>
+            <p>Essence · 48 000 km · Automatique · 13 500 €</p>
+        </a>
+    </div>
+    <div class="offres">
+        <a href="page_annonce.html">
+            <h2>BMW Série 3 — 2019</h2>
+            <p>Diesel · 90 000 km · Automatique · 22 000 €</p>
+        </a>
+    </div>
+    <div class="offres">
+        <a href="page_annonce.html">
+            <h2>Audi A4 — 2022</h2>
+            <p>Essence · 31 000 km · Automatique · 28 500 €</p>
+        </a>
+    </div>
+    <div class="offres">
+        <a href="page_annonce.html">
+            <h2>Volkswagen Golf — 2020</h2>
+            <p>Hybride · 54 000 km · Automatique · 19 800 €</p>
+        </a>
+    </div>
+    <div class="offres">
+        <a href="page_annonce.html">
+            <h2>Tesla Model 3 — 2023</h2>
+            <p>Électrique · 18 000 km · Automatique · 34 990 €</p>
+        </a>
+    </div>
+</body>
 </html>
+ 
